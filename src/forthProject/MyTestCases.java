@@ -179,7 +179,7 @@ public class MyTestCases {
 
 		} else {
 			driver.get(myWebsite);
-			System.out.println("sorry the item out of the stock ");
+	//		System.out.println("sorry the item out of the stock ");
 			
 			String ExpectedResult = "https://automationteststore.com/";
 			String ActualResult = driver.getCurrentUrl();
