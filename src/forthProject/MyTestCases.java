@@ -36,7 +36,7 @@ public class MyTestCases {
 
 	}
 
-	@Test(priority = 1, enabled = false)
+	@Test(priority = 1)
 	public void signUp() throws InterruptedException {
 
 		int RandomIndexForTheFirstName = rand.nextInt(firstNames.length);
@@ -105,7 +105,7 @@ public class MyTestCases {
 
 	}
 
-	@Test(priority = 2, enabled = false)
+	@Test(priority = 2)
 
 	public void Logout() throws InterruptedException {
 
@@ -117,7 +117,7 @@ public class MyTestCases {
 
 	}
 
-	@Test(priority = 3, enabled = false)
+	@Test(priority = 3)
 	public void login() throws InterruptedException {
 		Thread.sleep(2000);
 		driver.findElement(By.linkText("Login or register")).click();

@@ -6,7 +6,9 @@
       <class name="forthProject.MyTestCases">
         <methods>
           <include name="AddItemToThecart"/>
+          <include name="Logout"/>
           <include name="mySetup"/>
+          <include name="signUp"/>
         </methods>
       </class> <!-- forthProject.MyTestCases -->
     </classes>

@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-21T20:27:20 EET" name="Default suite" finished-at="2024-10-21T20:27:34 EET" duration-ms="13920">
+  <suite started-at="2024-10-22T00:22:31 EET" name="Default suite" finished-at="2024-10-22T00:23:05 EET" duration-ms="33492">
     <groups>
     </groups>
-    <test started-at="2024-10-21T20:27:20 EET" name="Default test" finished-at="2024-10-21T20:27:34 EET" duration-ms="13920">
+    <test started-at="2024-10-22T00:22:31 EET" name="Default test" finished-at="2024-10-22T00:23:05 EET" duration-ms="33492">
       <class name="forthProject.MyTestCases">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:forthProject.MyTestCases@2e8e8225]" started-at="2024-10-21T20:27:20 EET" name="mySetup" finished-at="2024-10-21T20:27:21 EET" duration-ms="1347" status="PASS">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:forthProject.MyTestCases@1b765a2c]" started-at="2024-10-22T00:22:31 EET" name="mySetup" finished-at="2024-10-22T00:22:33 EET" duration-ms="1326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method signature="AddItemToThecart()[pri:4, instance:forthProject.MyTestCases@2e8e8225]" started-at="2024-10-21T20:27:21 EET" name="AddItemToThecart" finished-at="2024-10-21T20:27:34 EET" duration-ms="12529" status="PASS">
+        <test-method signature="signUp()[pri:1, instance:forthProject.MyTestCases@1b765a2c]" started-at="2024-10-22T00:22:33 EET" name="signUp" finished-at="2024-10-22T00:22:41 EET" duration-ms="8191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method signature="Logout()[pri:2, instance:forthProject.MyTestCases@1b765a2c]" started-at="2024-10-22T00:22:41 EET" name="Logout" finished-at="2024-10-22T00:22:43 EET" duration-ms="2667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method signature="login()[pri:3, instance:forthProject.MyTestCases@1b765a2c]" started-at="2024-10-22T00:22:43 EET" name="login" finished-at="2024-10-22T00:22:50 EET" duration-ms="6209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="AddItemToThecart()[pri:4, instance:forthProject.MyTestCases@1b765a2c]" started-at="2024-10-22T00:22:50 EET" name="AddItemToThecart" finished-at="2024-10-22T00:23:05 EET" duration-ms="15063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddItemToThecart -->
